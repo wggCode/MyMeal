@@ -1,0 +1,50 @@
+﻿body {
+    background: url(../Images/ntlPtrn.jpg) repeat #808080;
+    font-family: Microsoft YaHei ! important;
+    overflow:hidden;    
+}
+.content{
+    width:100%;
+}
+.leftMenu {
+    width:180px;
+    height:650px;
+    float:left;    
+    padding:10px;
+}
+.rightContent
+{
+     background: url(../Images/ptrn.jpg) repeat #808080;
+     float:left;
+     position:relative;
+}
+.jBtn{
+    background: url(../Images/favIcons.png) no-repeat scroll;
+    width: 24px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    z-index: 9999;
+    -webkit-transition: opacity 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out;
+    -ms-transition: opacity 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+    cursor:pointer;
+}
+.btnMenuShow
+{
+    
+    background-position: -60px 0;
+    width: 32px;
+    height: 32px;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+.clear{
+    clear:both;
+}
+.ft16 {
+    font-size:16px !important;
+}
